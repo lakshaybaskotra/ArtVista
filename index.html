@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtVista</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <img class="logo" src="./assets/images/logo-color.png" alt="logo">
+    <h1>ArtVista: <span class = "creative">Explore </span> the World of Creativity</h1>
+
+    <nav>
+
+      <ul>
+
+        <li> <a href="#home ">Home</a></li>
+        <li><a href="#artists">Artists</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact ">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="Home">
+      <div class="Container">
+        <h2>Welcome to ArtVista</h2>
+        <p>Explore a diverse collection of artworks from talented artists around the world.</p>
+      </div>
+    </section>
+
+
+
+    <section id=" artists">
+      <div class="container">
+        <h2>Featured Artists</h2>
+        <!-- Featured Artists -->
+        <div class="artist-card">
+          <!-- Artist 1 -->
+          <img src="./assets/images/artist1.jpg" alt="Artist 1"height="200px" width="200px" >
+          <h3>Vincent van Gogh </h3>
+          <p>A Dutch Post-Impressionist painter known for his bold brushstrokes, 
+             vibrant colors, and swirling landscapes.</p>
+        </div>
+
+          <div class="artist-card" >
+          <!-- Artist 2-->
+          <img src="./assets/images/artist2.png" alt="Artist 2"height="200px" width="200px" >
+          <h3>Claude Monet </h3>
+          <p>A Japanese contemporary artist known for her polka-dot installations, sculptures, and paintings. 
+             Her work explores themes of infinity, obsession, and the self, and is often described as playful and mesmerizing.</p>
+        </div>
+    
+
+   </section>
+
+           <div class="artist-card" >
+           <!-- Artist 3-->
+           <img src="./assets/images/artist3.jpg" alt="Artist 3" height="200px" width="200px">
+           <h3>Frederic Edwin Church </h3>
+           <p>He was a renowned American landscape painter of the 19th century. He is 
+              considered a master of Luminism, a style known for its meticulous detail, 
+              focus on light and atmosphere.</p>
+         </div>
+
+
+    <div class="left card"><img class="tile-image" src="./assets/images/Art1.jpg" alt="Nature in form of painting "  >
+      <h2 class="card-title">Fusion </h2>
+      <p class="card-text">A captivating canvas where diverse trees unite in a harmonious dance of nature's beauty. 
+                          Majestic pines stand tall alongside delicate cherry blossoms, their branches intertwining 
+                          in a symphony of foliage</p>
+    </div>
+
+    <div class="right card"><img class="tile-image" src="./assets/images/ART2.jpg" alt="metal structure">
+      <h2 class="card-title">Vibrant Chaos </h2>
+      <p>A mesmerizing masterpiece born from the dance of colors. Layers of vibrant paints converge, 
+         each hue intertwining with the next in a symphony of chaos and harmony.</p>
+    </div>
+
+    <div class="center card" >  <img class "title-image " src="./assets/images/ART3.jpg" alt="Different paints together "> 
+      <h2 class="card-title">Eternal Beauty </h2>
+      <p>It is a mesmerizing artwork that exudes timeless elegance and charm, 
+         captivating viewers with its enchanting allure and graceful composition.</p>
+   
+
+        
+        <section id="contact">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <!-- Contact Form -->
+            <form action="submit.php" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+
+    </div>
+
+     <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 ArtVista. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  
+</body>
+
+</html>
+
